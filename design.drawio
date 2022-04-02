@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T10:29:22.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="pLmBPxYrgPzXf-kM839n" version="17.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-02T10:30:37.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="VOmBnapezOpd4aC8IStA" version="17.3.0" type="github" pages="3">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
     <mxGraphModel dx="868" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
         <mxCell id="R-MHD2BmySgL1vxm9D8J-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-29" target="R-MHD2BmySgL1vxm9D8J-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R-MHD2BmySgL1vxm9D8J-32" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-34" target="R-MHD2BmySgL1vxm9D8J-31">
+        <mxCell id="R-MHD2BmySgL1vxm9D8J-32" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-34" target="R-MHD2BmySgL1vxm9D8J-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-29" value="size == needsFineScale(sampleSize)？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
@@ -318,6 +318,9 @@
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-54" value="decode enter" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1109" y="90" width="270" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UaKKXYOaUqRYQ_CeCZ6T-1" value="&lt;div&gt;static bool needsFineScale(const int fullSize, const int decodedSize, const int sampleSize) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (fullSize % sampleSize == 0 &amp;amp;&amp;amp; fullSize / sampleSize != decodedSize) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else if ((fullSize / sampleSize + 1) != decodedSize &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(fullSize / sampleSize) != decodedSize) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="370" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
