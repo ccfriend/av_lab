@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T10:21:31.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="QvNouIPsIWy3I83jhMWd" version="17.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-02T10:22:00.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Nan_vbO26Aee8rKpwcYa" version="17.3.0" type="github" pages="3">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
-    <mxGraphModel dx="1021" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,22 +206,22 @@
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-25" target="R-MHD2BmySgL1vxm9D8J-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1245" y="383.75" as="targetPoint" />
+            <mxPoint x="1244" y="383.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-25" value="SkISize size = codec-&amp;gt;getSampledDimensions(sampleSize);&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;scaledWidth &lt;/font&gt;= size.width();&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 根据SampleSize计算解码Size&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="202.5" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="222.5" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-28" target="R-MHD2BmySgL1vxm9D8J-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1570" y="500" />
-              <mxPoint x="1245" y="500" />
+              <mxPoint x="1569" y="500" />
+              <mxPoint x="1244" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-28" value="&lt;font color=&quot;#00ff00&quot;&gt;willScale&lt;/font&gt; = true&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0000ff&quot;&gt;scaledWidth&lt;/font&gt; = codec.width() / sampleSize&lt;/div&gt;&lt;div&gt;记录最终要缩放的尺寸&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="367.25" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1429" y="367.25" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-29" target="R-MHD2BmySgL1vxm9D8J-28">
           <mxGeometry relative="1" as="geometry" />
@@ -230,33 +230,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-29" value="size == needsFineScale(sampleSize)？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="356" width="220" height="110" as="geometry" />
+          <mxGeometry x="1134" y="356" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1245" y="700" as="targetPoint" />
+            <mxPoint x="1244" y="700" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1570" y="680" />
-              <mxPoint x="1245" y="680" />
+              <mxPoint x="1569" y="680" />
+              <mxPoint x="1244" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-31" value="iTouch::ITouchManager::DecodeOpt(scaledWidth, scaledHeight);&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;scaledWidth&lt;/font&gt; = (scaledWidth * scale + 0.5f);" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="541.25" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1429" y="541.25" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-37" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-34" target="R-MHD2BmySgL1vxm9D8J-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-34" value="scale != 1.0f？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="530" width="220" height="110" as="geometry" />
+          <mxGeometry x="1134" y="530" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-35" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;endArrow=none;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-29" target="R-MHD2BmySgL1vxm9D8J-34">
           <mxGeometry x="-0.5625" relative="1" as="geometry">
-            <mxPoint x="1245" y="466" as="sourcePoint" />
-            <mxPoint x="1241" y="702.4999999999998" as="targetPoint" />
+            <mxPoint x="1244" y="466" as="sourcePoint" />
+            <mxPoint x="1240" y="702.4999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1245" y="480" />
-              <mxPoint x="1245" y="480" />
+              <mxPoint x="1244" y="480" />
+              <mxPoint x="1244" y="480" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -265,41 +265,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-36" value="设置decodeAllocator" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="702.5" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="702.5" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-39" target="R-MHD2BmySgL1vxm9D8J-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-39" value="&lt;div&gt;&amp;nbsp;根据size 计算ImageInfo&lt;/div&gt;&lt;div&gt;SkImageInfo &lt;font color=&quot;#ff0000&quot;&gt;decodeInfo &lt;/font&gt;= SkImageInfo::Make(size.width(), size.height()&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="830" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="830" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-40" target="R-MHD2BmySgL1vxm9D8J-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-40" value="&lt;div&gt;设置给bitmap&lt;/div&gt;&lt;div&gt;decodingBitmap.setInfo(bitmapInfo)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="950" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="950" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-43" target="R-MHD2BmySgL1vxm9D8J-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-43" value="&lt;div&gt;硬解逻辑&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1069.04" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="1069.04" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-45" target="R-MHD2BmySgL1vxm9D8J-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-45" value="&lt;div&gt;软解&lt;/div&gt;&lt;div&gt;使用 &lt;font color=&quot;#ff0000&quot;&gt;decodeInfo &lt;/font&gt;进行解码&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; codec-&amp;gt;getAndroidPixels(decodeInfo, decodingBitmap.getPixels(),&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1196.54" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="1196.54" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-47" target="R-MHD2BmySgL1vxm9D8J-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1595" y="1544" />
+              <mxPoint x="1594" y="1524" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-47" value="使用之前记录的scaleWidth进行缩放&lt;br&gt;canvas.drawImage" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="1341.25" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1459" y="1341.25" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-50" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-48" target="R-MHD2BmySgL1vxm9D8J-47">
           <mxGeometry relative="1" as="geometry" />
@@ -308,16 +308,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-48" value="willScale ？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="1330" width="220" height="110" as="geometry" />
+          <mxGeometry x="1134" y="1330" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-51" value="done" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1500" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="1480" width="270" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="R-MHD2BmySgL1vxm9D8J-54" target="R-MHD2BmySgL1vxm9D8J-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-MHD2BmySgL1vxm9D8J-54" value="decode enter" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="70" width="270" height="87.5" as="geometry" />
+          <mxGeometry x="1109" y="90" width="270" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
