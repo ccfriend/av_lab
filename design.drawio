@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T07:11:51.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="E2L3M-RAcHWIDb4zZ1Ms" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-11T07:20:24.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="dP7W-6cW2Hp_DeX6qhJs" version="17.4.1" type="github" pages="4">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
     <mxGraphModel dx="2893" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,12 +331,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bjUopAvwcK1yTneXVrKK" name="jpeg hardware">
-    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bK3gw8NUyZDSkcvv-X-4-48" value="JpegHardwareDecoder&lt;br&gt;&lt;br&gt;libhwui.so" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="183" y="250" width="460" height="1010" as="geometry" />
+          <mxGeometry x="183" y="250" width="460" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="bK3gw8NUyZDSkcvv-X-4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=none;" edge="1" parent="1" source="bK3gw8NUyZDSkcvv-X-4-12" target="bK3gw8NUyZDSkcvv-X-4-8">
           <mxGeometry relative="1" as="geometry" />
@@ -485,23 +485,35 @@
         <mxCell id="eGmalkxcez4Z9wUmao28-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eGmalkxcez4Z9wUmao28-16" target="eGmalkxcez4Z9wUmao28-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eGmalkxcez4Z9wUmao28-16" value="h v compont info support?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="eGmalkxcez4Z9wUmao28-16" value="JpegHardwareHidlLockDevice?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="349" y="1020" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eGmalkxcez4Z9wUmao28-21" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eGmalkxcez4Z9wUmao28-19" target="bK3gw8NUyZDSkcvv-X-4-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eGmalkxcez4Z9wUmao28-22" value="success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGmalkxcez4Z9wUmao28-19" target="bK3gw8NUyZDSkcvv-X-4-22">
+        <mxCell id="eGmalkxcez4Z9wUmao28-22" value="success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eGmalkxcez4Z9wUmao28-19" target="bK3gw8NUyZDSkcvv-X-4-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="1450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="1175" />
+              <mxPoint x="590" y="1245" />
               <mxPoint x="590" y="1452" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eGmalkxcez4Z9wUmao28-19" value="itouchService-&amp;gt;transact( JPEG_HARDWARE_ITOUCHCODE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="289" y="1140" width="250" height="70" as="geometry" />
+          <mxGeometry x="289" y="1210" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eGmalkxcez4Z9wUmao28-25" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGmalkxcez4Z9wUmao28-24" target="bK3gw8NUyZDSkcvv-X-4-21">
+          <mxGeometry x="-0.6277" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1150" />
+              <mxPoint x="110" y="1360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGmalkxcez4Z9wUmao28-24" value="h v compont info support?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1110" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
