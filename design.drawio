@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T01:48:29.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ALLlH8GaRWRbrYCJcYwD" version="17.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-26T01:48:41.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="xVrBZDaSnVvznkeZwRd4" version="17.4.4" type="github" pages="4">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -520,6 +520,9 @@
         </mxCell>
         <mxCell id="hlkno81LdG89qHP_nUGT-6" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; decodingBitmap-&amp;gt;tryAllocPixels(&amp;amp;hwAllocator)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JpegHWAllocator::&lt;font color=&quot;#ff0000&quot;&gt;allocPixelRef&lt;/font&gt;（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="610" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hlkno81LdG89qHP_nUGT-8" value="native_handle_t *&lt;font color=&quot;#ff0000&quot;&gt;outBufHnd &lt;/font&gt;= iTouch::ITouchManager::JpegHardwareHidlGetOutBuffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="436" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hlkno81LdG89qHP_nUGT-12" value="return" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="1120" width="370" height="90" as="geometry" />
