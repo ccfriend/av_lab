@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T01:44:28.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nK5viwmXYiBMsMhuQ93c" version="17.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-26T01:46:06.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7W1_DL2-pOoj9JSmt4qZ" version="17.4.4" type="github" pages="4">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bjUopAvwcK1yTneXVrKK" name="jpeg hardware">
-    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1736" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,7 +500,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eGmalkxcez4Z9wUmao28-19" value="doHarwareDecode" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+        <mxCell id="eGmalkxcez4Z9wUmao28-19" value="itouch-&amp;gt;doDecode" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="289" y="1210" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eGmalkxcez4Z9wUmao28-25" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eGmalkxcez4Z9wUmao28-24" target="bK3gw8NUyZDSkcvv-X-4-21" edge="1">
@@ -515,8 +515,8 @@
         <mxCell id="eGmalkxcez4Z9wUmao28-24" value="h v compont info support?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="349" y="1110" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eGmalkxcez4Z9wUmao28-26" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; android::sp&amp;lt;android::IServiceManager&amp;gt; sm = android::defaultServiceManager();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; sp&amp;lt;IBinder&amp;gt; itouchService = sm-&amp;gt;getService(String16(&quot;ITouchservice&quot;));&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="1160" width="380" height="110" as="geometry" />
+        <mxCell id="hlkno81LdG89qHP_nUGT-12" value="return" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1120" width="370" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
