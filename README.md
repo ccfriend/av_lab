@@ -1,75 +1,86 @@
 # av_lab
-av实验室，用于av相关资料学习分享，立志于让所有人都能学习、理解、探讨音视频领域。
+av实验室，用于音视频领域的资料学习分享，立志于让所有人都能入门、学习、理解音视频领域。
 
-题目愿景很大，自己不一定能在有限的时间里完成完善，希望后来者可以承继前人的优秀经验，不断总结，让所有致力于音视频领域的同学都能茁壮成长。
+内容大多来自网络，也有个人完成的一些文章，分门别类的加以整理总结；网上的内容以链接形式提供，如有版权要求，可以联系删除。
 
-这里包括：
+个人建议的学习思路：
 
-- 系统介绍大类知识的专栏文章
-- 结合Android系统的分析
-- 零散的技术总结
-- 开源协议、技术规范
+1. 先通读某一大类的专栏文章和书籍，这些专栏文章和书籍一般都是完整的介绍某一类知识提下，能够以较好的条理性从头阐述，对于系统理解脉络知识很有帮助；
+当然，通读的时候肯定会遇到各种问题，这个没有关系，多读几遍这样的专栏，就大概理解了知识脉络，后续就是针对性的加以精读和实践。
+2. 音视频领域很广，业务知识门槛不低，虽然本身技术发展演进不如互联网迅速，但是对于理论知识的要求较高，再加以软件、硬件的综合要求，如对编解码算法的掌握和优化，对于音频器件的控制，电路的调试等等，不亚于一个全栈工程师。整个行业分解的也很大，依据个人的兴趣和行业的热度，来选择细分领域加以钻研。但是无论哪个细分行业，基础知识都是必备的，建议都要加以牢固掌握。
+3. 基础知识包括：
+ - 音频的声学基础，声音的基本要素，数字信号处理的基本方法
+ - 编解码的基础，最好以某个格式做到精通，如AAC和H264
+ - 流媒体基础，分包、拆包、传输的基本流程，以RTP和RTCP为精通，对照互联网的tcp/udp要求，要理解过程
+ - 常见硬件平台的驱动调试、硬件开发，了解概貌，知道如何做bringup，如linux版本的驱动调试（根据需要，这个是BSP工程师的范畴）
+ - 常见开源软件的掌握，如ffmpeg，这个掌握要到什么程度？动手写demo，分析demux，decode，encode的代码流程，知道代码结构，如何进行编译，裁减，优化等，可以结合网上的一些面试题做自我考试，或者针对一个场景做完整工程
+ - 常见开源客户端的使用，如ijkplayer，基于ffmpeg如何实现的完整播放器，自己能不能看懂
+ - 常见问题的分析思路，如音频的卡顿、延时，视频的丢帧，不同步，流媒体的起播，卡顿
+4. 为了多长见识，需要多学习了解行业的动态，随时更新自己的技术栈，理解一个新兴的业务，如AI编码背后的逻辑，虽然对数学要求很高，但是可以慢慢尝试。
+
+总体包括：
+
+- 专栏文章和书籍
+- 音频技术
+- 视频技术
+- 流媒体技术
+- 图片技术
+- Android系统音视频
+- linux系统音视频
+- 开源软件
+- 技术规范
 - 参考工具
 - 测试资源
+- 面试资源
 
 ## 专栏文章
-以下内容仅做链接引用，如有原始作者的版权要求，可以直接联系原作者。
 
-音视频基础知识：流媒体核心技术梳理
+[音视频基础知识：流媒体核心技术梳理](https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect)
 
-https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect
+[Microsoft的媒体基础](https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide)
 
-一图看懂音视频核心技术栈（框架、工具和场景）
+[audio_video_streaming](https://github.com/0voice/audio_video_streaming)
 
-https://blog.csdn.net/weixin_41422027/article/details/105533435?utm_source=app&app_version=4.5.2
+## 音频技术
 
-Microsoft的媒体基础
+## 视频技术
 
-https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide
+## 流媒体技术
 
-## 技术规范
-
-## 参考工具
-### 格式解析类：
-mp4 creator：免费
-
-http://mp4creator.sourceforge.net/
-
-AVIDemux：
-
-https://www.fosshub.com/Avidemux.html
-
-### 视频流解析类：
-CodecVisa，不免费
-
-http://www.codecian.com/
-
-Elecard，不免费
-
-http://www.elecard.com/en/download/products.html
-
-Intel VideoPro Analyzer，不免费
-
-https://software.intel.com/content/www/us/en/develop/articles/video-pro-analyzer.html
-
-Adobe 工具，不免费
-
-https://www.adobe.com/?faas_unique_submission_id={44411BF3-B7E5-44FB-3ED7-2F9F480102C1}&s_cid=null
-
-Vega (他人语：是我用过的最专业的 HEVC 图形化的分析工具，它是收费的，之前听公司人说，买的版权是30万， 惊呆了，目前也没在市面上见到过破解版的)
-
-http://lazybing.github.io/blog/2015/11/01/hevc-analyse-tool/
-
-## 测试资源
-https://media.xiph.org/video/derf/
-
-学习这个repo，整理的非常多，但是要按照个人学习能力和接受程度来重新整理，循序渐进：
-https://github.com/0voice/audio_video_streaming
-
-## image
-
+## 图片技术
 Exif orientation：https://jdhao.github.io/2019/07/31/image_rotation_exif_info/
 
 各类图片加载框架：https://edward7zhang.github.io/2019/03/04/Android%E7%AB%AF%E5%90%84%E7%B1%BB%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94/
 
 iOS的image介绍：https://tenloy.github.io/2021/09/15/graphics-processing.html
+
+## Android系统音视频
+
+## linux系统音视频
+
+## 开源软件
+
+## 技术规范
+
+## 参考工具
+### 格式解析类：
+[mp4 creator](http://mp4creator.sourceforge.net/)
+
+[AVIDemux](https://www.fosshub.com/Avidemux.html)
+
+### 视频流解析类：
+[CodecVisa，不免费](http://www.codecian.com/)
+
+[Elecard，不免费](http://www.elecard.com/en/download/products.html)
+
+[Intel VideoPro Analyzer，不免费](https://software.intel.com/content/www/us/en/develop/articles/video-pro-analyzer.html)
+
+[Adobe 工具，不免费](https://www.adobe.com/?faas_unique_submission_id={44411BF3-B7E5-44FB-3ED7-2F9F480102C1}&s_cid=null)
+
+[Vega (他人语：是我用过的最专业的 HEVC 图形化的分析工具，它是收费的，之前听公司人说，买的版权是30万， 惊呆了，目前也没在市面上见到过破解版的)](http://lazybing.github.io/blog/2015/11/01/hevc-analyse-tool/)
+
+## 测试资源
+[xiph视频测试资源](https://media.xiph.org/video/derf/)
+
+## 面试资源
+[audio_video_streaming](https://github.com/0voice/audio_video_streaming)
