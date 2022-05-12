@@ -30,37 +30,67 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 - 开源软件
 - 技术规范
 - 参考工具
-- 测试资源
 - 面试资源
 
-## 专栏文章
+## 专栏文章和书籍
 
+- 专栏总结
 [音视频基础知识：流媒体核心技术梳理](https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect)
 
 [Microsoft的媒体基础](https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide)
 
 [audio_video_streaming](https://github.com/0voice/audio_video_streaming)
 
+[AvStackDocs](https://github.com/ty6815/AvStackDocs)
+
+- 关于书籍
+基础的通用知识书籍：
+
 ## 音频技术
+### 格式
+
+### 测试资源 
 
 ## 视频技术
+### 文件封装
+
+### 视频格式
+
+### 测试资源
+[xiph视频测试资源](https://media.xiph.org/video/derf/)
 
 ## 流媒体技术
 
 ## 图片技术
-Exif orientation：https://jdhao.github.io/2019/07/31/image_rotation_exif_info/
+### 图片基础
+[Exif orientation](https://jdhao.github.io/2019/07/31/image_rotation_exif_info/)
 
-各类图片加载框架：https://edward7zhang.github.io/2019/03/04/Android%E7%AB%AF%E5%90%84%E7%B1%BB%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94/
+[各类图片加载框架](https://edward7zhang.github.io/2019/03/04/Android%E7%AB%AF%E5%90%84%E7%B1%BB%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94/)
 
-iOS的image介绍：https://tenloy.github.io/2021/09/15/graphics-processing.html
+[iOS的image介绍](https://tenloy.github.io/2021/09/15/graphics-processing.html)
+
+### 测试资源
+[图片测试资源RAISE](http://loki.disi.unitn.it/RAISE/download.html)
+
+[图片测试资源Kodak](https://r0k.us/graphics/kodak/)
+
+[图片测试资源Clic](http://compression.cc/tasks/)
 
 ## Android系统音视频
+[深入理解Android音视频同步](https://blog.csdn.net/nonmarking/article/details/78745646)
 
 ## linux系统音视频
 
+[ALSA](https://www.alsa-project.org/wiki/Main_Page)
+
+[PulseAudio](https://gavv.github.io/articles/pulseaudio-under-the-hood/)
+
 ## 开源软件
 
+[雷神的ffmpeg学习总结](https://blog.csdn.net/leixiaohua1020/article/details/15811977)
+
 ## 技术规范
+各类标准规范：
 
 ## 参考工具
 ### 格式解析类：
@@ -79,8 +109,10 @@ iOS的image介绍：https://tenloy.github.io/2021/09/15/graphics-processing.html
 
 [Vega (他人语：是我用过的最专业的 HEVC 图形化的分析工具，它是收费的，之前听公司人说，买的版权是30万， 惊呆了，目前也没在市面上见到过破解版的)](http://lazybing.github.io/blog/2015/11/01/hevc-analyse-tool/)
 
-## 测试资源
-[xiph视频测试资源](https://media.xiph.org/video/derf/)
+[雷神的VideoEye](https://blog.csdn.net/leixiaohua1020/article/details/34553607)
+
+### 在线转码工具
+有一些很方便的在线工具，小巧而实用：
 
 ## 面试资源
 [audio_video_streaming](https://github.com/0voice/audio_video_streaming)
