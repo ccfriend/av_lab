@@ -69,6 +69,11 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 
 [iOS的image介绍](https://tenloy.github.io/2021/09/15/graphics-processing.html)
 
+### heif
+[nokia heif官网](https://nokiatech.github.io/heif/examples.html)
+
+[libheif开源库](https://github.com/strukturag/libheif)
+
 ### 测试资源
 [图片测试资源RAISE](http://loki.disi.unitn.it/RAISE/download.html)
 
