@@ -35,6 +35,7 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 ## 专栏文章和书籍
 
 - 专栏总结
+
 [音视频基础知识：流媒体核心技术梳理](https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect)
 
 [Microsoft的媒体基础](https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide)
@@ -48,6 +49,20 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 
 ## 音频技术
 ### 格式
+
+[mp3格式解析](https://blog.csdn.net/sunshine1314/article/details/2514322)
+
+[mp3 tech-一个外国小哥自己弄的mp3、aac介绍](http://www.mp3-tech.org/)
+
+[ID3 org](https://id3.org/)
+
+[midi org](https://www.midi.org/)
+
+### 蓝牙音频
+
+[LHDC](https://www.hwa-lhdc.org/how-it-works)
+
+[aptx](https://www.aptx.com/which-aptx)
 
 ### 测试资源 
 
@@ -84,6 +99,8 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 ## Android系统音视频
 [深入理解Android音视频同步](https://blog.csdn.net/nonmarking/article/details/78745646)
 
+[AudioPatch分析](https://blog.csdn.net/yzhang8703/article/details/47660803)
+
 ## linux系统音视频
 
 [ALSA](https://www.alsa-project.org/wiki/Main_Page)
@@ -91,6 +108,8 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 [PulseAudio](https://gavv.github.io/articles/pulseaudio-under-the-hood/)
 
 ## 开源软件
+
+[vlc 播放器](https://github.com/videolan/vlc)
 
 [雷神的ffmpeg学习总结](https://blog.csdn.net/leixiaohua1020/article/details/15811977)
 
