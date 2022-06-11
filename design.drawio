@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T01:37:01.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="konxWLjK3_N0p4lVnrPP" version="18.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-11T01:48:23.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="F_D1lxPnh2QuDzyLyU3j" version="18.1.1" type="github" pages="4">
   <diagram id="500orS-XTbBu4sYQltuu" name="skia">
     <mxGraphModel dx="942" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bjUopAvwcK1yTneXVrKK" name="jpeg hardware">
-    <mxGraphModel dx="1240" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,36 +515,36 @@
         <mxCell id="eGmalkxcez4Z9wUmao28-24" value="h v compont info support?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="349" y="1110" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hlkno81LdG89qHP_nUGT-6" target="hlkno81LdG89qHP_nUGT-17">
+        <mxCell id="hlkno81LdG89qHP_nUGT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="hlkno81LdG89qHP_nUGT-6" target="hlkno81LdG89qHP_nUGT-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-6" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; decodingBitmap-&amp;gt;tryAllocPixels(&amp;amp;hwAllocator)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JpegHWAllocator::&lt;font color=&quot;#ff0000&quot;&gt;allocPixelRef&lt;/font&gt;（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-6" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; decodingBitmap-&amp;gt;tryAllocPixels(&amp;amp;hwAllocator)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JpegHWAllocator::&lt;font color=&quot;#ff0000&quot;&gt;allocPixelRef&lt;/font&gt;（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="610" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-8" value="native_handle_t *&lt;font color=&quot;#ff0000&quot;&gt;outBufHnd &lt;/font&gt;= iTouch::ITouchManager::JpegHardwareHidlGetOutBuffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-8" value="native_handle_t *&lt;font color=&quot;#ff0000&quot;&gt;outBufHnd &lt;/font&gt;= iTouch::ITouchManager::JpegHardwareHidlGetOutBuffer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="436" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-12" value="return" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-12" value="return" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="1120" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;endArrow=classic;endFill=1;" edge="1" parent="1" source="hlkno81LdG89qHP_nUGT-17" target="hlkno81LdG89qHP_nUGT-12">
+        <mxCell id="hlkno81LdG89qHP_nUGT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;endArrow=classic;endFill=1;" parent="1" source="hlkno81LdG89qHP_nUGT-17" target="hlkno81LdG89qHP_nUGT-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-17" value="GetAndroidPixels" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-17" value="GetAndroidPixels" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="870" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="hlkno81LdG89qHP_nUGT-25">
+        <mxCell id="hlkno81LdG89qHP_nUGT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="hlkno81LdG89qHP_nUGT-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1405" y="526" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-25" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; outBufMapAddr = mmap(nullptr, outInfo-&amp;gt;alignsize, PROT_READ | PROT_WRITE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MAP_SHARED, &lt;font color=&quot;#ff0000&quot;&gt;outBufHnd-&amp;gt;data[0]&lt;/font&gt;, 0);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-25" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; outBufMapAddr = mmap(nullptr, outInfo-&amp;gt;alignsize, PROT_READ | PROT_WRITE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MAP_SHARED, &lt;font color=&quot;#ff0000&quot;&gt;outBufHnd-&amp;gt;data[0]&lt;/font&gt;, 0);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="564" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-31" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; android::Bitmap *wrapper = new Bitmap(reinterpret_cast&amp;lt;void *&amp;gt;(&lt;font color=&quot;#ff0000&quot;&gt;outBufMapAddr&lt;/font&gt;), reinterpret_cast&amp;lt;void *&amp;gt;(m_outHandleT),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JpegHWAllocator::FreeIonBuf, info, rowBytes);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="hlkno81LdG89qHP_nUGT-31" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; android::Bitmap *wrapper = new Bitmap(reinterpret_cast&amp;lt;void *&amp;gt;(&lt;font color=&quot;#ff0000&quot;&gt;outBufMapAddr&lt;/font&gt;), reinterpret_cast&amp;lt;void *&amp;gt;(m_outHandleT),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JpegHWAllocator::FreeIonBuf, info, rowBytes);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="694" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hlkno81LdG89qHP_nUGT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" target="hlkno81LdG89qHP_nUGT-31">
+        <mxCell id="hlkno81LdG89qHP_nUGT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" target="hlkno81LdG89qHP_nUGT-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1405" y="654" as="sourcePoint" />
           </mxGeometry>
@@ -553,7 +553,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TrVGcVlIdTUBXknsnCSI" name="audio_resample">
-    <mxGraphModel dx="942" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
