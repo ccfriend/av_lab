@@ -36,33 +36,34 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 
 - 专栏总结
 
-[音视频基础知识：流媒体核心技术梳理](https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect)
-
-[Microsoft的媒体基础](https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide)
-
-[audio_video_streaming](https://github.com/0voice/audio_video_streaming)
-
-[AvStackDocs](https://github.com/ty6815/AvStackDocs)
+|分类|内容|
+| :----: | :----: |
+|音视频|[音视频基础知识：流媒体核心技术梳理](https://mp.weixin.qq.com/s?__biz=MzI0NTMxMjA1MQ==&mid=2247483830&idx=1&sn=60bea3eb935eafcb81d0701908a822f6&chksm=e9513eeade26b7fc1cafd9ca3384f9bfa9a3ac329a58fbc625d963944036fd99ffebbf86f6d0&scene=21#wechat_redirect)|
+||[Microsoft的媒体基础](https://docs.microsoft.com/zh-cn/windows/win32/medfound/media-foundation-programming-guide)|
+|个人专栏|[0voice-audio_video_streaming](https://github.com/0voice/audio_video_streaming)|
+||[AvStackDocs](https://github.com/ty6815/AvStackDocs)|
 
 - 关于书籍
 基础的通用知识书籍：
+有一个关于书籍的推荐链接：
 
 ## 音频技术
 ### 格式
 
-[mp3格式解析](https://blog.csdn.net/sunshine1314/article/details/2514322)
+|格式|内容|
+| :----: | :----: |
+|mp3|[mp3格式解析](https://blog.csdn.net/sunshine1314/article/details/2514322)|
+||[mp3 tech-外国小哥自己弄的mp3、aac介绍](http://www.mp3-tech.org/)|
+||[ID3 org](https://id3.org/)|
+|midi|[midi org](https://www.midi.org/)|
 
-[mp3 tech-一个外国小哥自己弄的mp3、aac介绍](http://www.mp3-tech.org/)
-
-[ID3 org](https://id3.org/)
-
-[midi org](https://www.midi.org/)
 
 ### 蓝牙音频
+|分类|内容|
+| :----: | :----: |
+||[LHDC](https://www.hwa-lhdc.org/how-it-works)|
+||[aptx](https://www.aptx.com/which-aptx)|
 
-[LHDC](https://www.hwa-lhdc.org/how-it-works)
-
-[aptx](https://www.aptx.com/which-aptx)
 
 ### 测试资源 
 
@@ -78,65 +79,78 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 
 ## 图片技术
 ### 图片基础
-[Exif orientation](https://jdhao.github.io/2019/07/31/image_rotation_exif_info/)
 
-[各类图片加载框架](https://edward7zhang.github.io/2019/03/04/Android%E7%AB%AF%E5%90%84%E7%B1%BB%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94/)
+|分类|内容|
+| :----: | :----: |
+||[Exif orientation](https://jdhao.github.io/2019/07/31/image_rotation_exif_info/)|
+||[Exif file format](https://www.media.mit.edu/pia/Research/deepview/exif.html)|
+||[各类图片加载框架](https://edward7zhang.github.io/2019/03/04/Android%E7%AB%AF%E5%90%84%E7%B1%BB%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%94/)|
+||[iOS的image介绍](https://tenloy.github.io/2021/09/15/graphics-processing.html)|
 
-[iOS的image介绍](https://tenloy.github.io/2021/09/15/graphics-processing.html)
 
 ### heif
-[nokia heif官网](https://nokiatech.github.io/heif/examples.html)
-
-[libheif开源库](https://github.com/strukturag/libheif)
+|分类|内容|
+| :----: | :----: |
+||[nokia heif官网](https://nokiatech.github.io/heif/examples.html)|
+||[libheif开源库](https://github.com/strukturag/libheif)|
 
 ### 测试资源
-[图片测试资源RAISE](http://loki.disi.unitn.it/RAISE/download.html)
 
-[图片测试资源Kodak](https://r0k.us/graphics/kodak/)
-
-[图片测试资源Clic](http://compression.cc/tasks/)
+|分类|内容|
+| :----: | :----: |
+||[图片测试资源RAISE](http://loki.disi.unitn.it/RAISE/download.html)|
+||[图片测试资源Kodak](https://r0k.us/graphics/kodak/)|
+||[图片测试资源Clic](http://compression.cc/tasks/)|
 
 ## Android系统音视频
-[深入理解Android音视频同步](https://blog.csdn.net/nonmarking/article/details/78745646)
-
-[AudioPatch分析](https://blog.csdn.net/yzhang8703/article/details/47660803)
+|分类|内容|
+| :----: | :----: |
+|音频|[AudioPatch分析](https://blog.csdn.net/yzhang8703/article/details/47660803)|
+|视频|[深入理解Android音视频同步](https://blog.csdn.net/nonmarking/article/details/78745646)|
 
 ## linux系统音视频
-
-[ALSA](https://www.alsa-project.org/wiki/Main_Page)
-
-[PulseAudio](https://gavv.github.io/articles/pulseaudio-under-the-hood/)
+|分类|内容|
+| :----: | :----: |
+||[ALSA](https://www.alsa-project.org/wiki/Main_Page)|
+||[PulseAudio](https://gavv.github.io/articles/pulseaudio-under-the-hood/)|
+|pipewire|[pipewire under hood](https://venam.nixers.net/blog/unix/2021/06/23/pipewire-under-the-hood.html)|
 
 ## 开源软件
-
-[vlc 播放器](https://github.com/videolan/vlc)
-
-[雷神的ffmpeg学习总结](https://blog.csdn.net/leixiaohua1020/article/details/15811977)
+|分类|内容|
+| :----: | :----: |
+|vlc|[vlc 播放器](https://github.com/videolan/vlc)|
+|ffmpeg|[雷神的ffmpeg学习总结](https://blog.csdn.net/leixiaohua1020/article/details/15811977)|
 
 ## 技术规范
 各类标准规范：
+|分类|内容|
+| :----: | :----: |
+|TIFF||
+|H264||
 
 ## 参考工具
 ### 格式解析类：
-[mp4 creator](http://mp4creator.sourceforge.net/)
-
-[AVIDemux](https://www.fosshub.com/Avidemux.html)
+|分类|内容|
+| :----: | :----: |
+|mp4|[mp4 creator](http://mp4creator.sourceforge.net/)|
+|avi|[AVIDemux](https://www.fosshub.com/Avidemux.html)|
 
 ### 视频流解析类：
-[CodecVisa，不免费](http://www.codecian.com/)
 
-[Elecard，不免费](http://www.elecard.com/en/download/products.html)
+|分类|内容|
+| :----: | :----: |
+|收费|[CodecVisa](http://www.codecian.com/)|
+||[Elecard](http://www.elecard.com/en/download/products.html)|
+||[Intel VideoPro Analyzer](https://software.intel.com/content/www/us/en/develop/articles/video-pro-analyzer.html)|
+||[Adobe 工具](https://www.adobe.com/?faas_unique_submission_id={44411BF3-B7E5-44FB-3ED7-2F9F480102C1}&s_cid=null)|
+||[Vega (目前也没在市面上见到过破解版的)](http://lazybing.github.io/blog/2015/11/01/hevc-analyse-tool/)|
+|免费|[雷神的VideoEye](https://blog.csdn.net/leixiaohua1020/article/details/34553607)|
 
-[Intel VideoPro Analyzer，不免费](https://software.intel.com/content/www/us/en/develop/articles/video-pro-analyzer.html)
-
-[Adobe 工具，不免费](https://www.adobe.com/?faas_unique_submission_id={44411BF3-B7E5-44FB-3ED7-2F9F480102C1}&s_cid=null)
-
-[Vega (他人语：是我用过的最专业的 HEVC 图形化的分析工具，它是收费的，之前听公司人说，买的版权是30万， 惊呆了，目前也没在市面上见到过破解版的)](http://lazybing.github.io/blog/2015/11/01/hevc-analyse-tool/)
-
-[雷神的VideoEye](https://blog.csdn.net/leixiaohua1020/article/details/34553607)
 
 ### 在线转码工具
 有一些很方便的在线工具，小巧而实用：
 
 ## 面试资源
-[audio_video_streaming](https://github.com/0voice/audio_video_streaming)
+|分类|内容|
+| :----: | :----: |
+||[audio_video_streaming](https://github.com/0voice/audio_video_streaming)|
