@@ -70,10 +70,20 @@ av实验室，用于音视频领域的资料学习分享，立志于让所有人
 ## 视频技术
 ### 文件封装
 
-### 视频格式
+|分类|内容|
+| ---- | ---- |
+|HDR|[HEVC的VUI](https://zhuanlan.zhihu.com/p/522169996)|
+||[HDR编码总结](https://zhuanlan.zhihu.com/p/536673560)|
 
 ### 测试资源
 [xiph视频测试资源](https://media.xiph.org/video/derf/)
+
+## 显示技术
+
+|分类|内容|
+| :----: | :----: |
+|色彩管理|[Color Management](https://www.bgteach.com/article/291)|
+||[Color Gamut: Understanding Rec.709, DCI-P3, and Rec.2020](https://www.benq.com/en-us/business/resource/trends/understanding-color-gamut.html)|
 
 ## 流媒体技术
 
